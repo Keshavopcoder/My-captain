@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() 
+{
+printf("choose a number from 0 or 1 :");
+int number=3;
+scanf("%d",&number);
+switch (number)
+   {
+	case 0:
+		printf("you picked 0");
+		break;
+	case 1:
+		printf("you picked 1");
+		break;
+	default:
+		printf("Since I’m not too great with numbers other than 0 and 1, in case I enter a number that isn’t in the list.");
+	 	
+   }
+}	
